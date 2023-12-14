@@ -1,0 +1,175 @@
+/* for desktop */
+.sideBarContainer {
+  width: 30%;
+  height: 100vh;
+  margin-left: 20px;
+  margin-right: 5px;
+  background-color: white;
+  padding: 1vw;
+}
+.heading {
+  color: #000;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: 0.63px;
+  font-family: cursive;
+  margin-left: 1vw;
+  border: solid 2px black;
+  border-radius: 10px;
+  padding-left: 1vw;
+}
+.createNoteButton {
+  height: 41px;
+  width: 280px;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #fff;
+  background-color: rgb(50, 46, 46);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 97%;
+  letter-spacing: 0.54px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  padding: 2px 2px;
+  font-family: cursive;
+}
+
+.GroupList {
+  overflow-y: auto;
+}
+
+.groupIcon {
+  margin-left: 10px;
+  width: 68px;
+  height: 68px;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 24px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.groupItem {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.groupItem.selected {
+  border-radius: 22px 0px 0px 22px;
+  background-color: #f7ecdc;
+  border: 2px solid black;
+}
+.groupItem:hover {
+  border-radius: 22px 0px 0px 22px;
+  background-color: #f7ecdc;
+}
+
+.groupName {
+  font-family: Roboto;
+  font-weight: bold;
+  letter-spacing: 0.48px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  color: black;
+}
+.MessageAreaContainer {
+  background: #f7ecdc;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+.MessageAreaText {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.MessageAreaHeading {
+  color: #000;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+.MessageAreaDescription {
+  color: #292929;
+  margin-top: 0;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.44px;
+}
+.MessageAreaFooter {
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  right: 32%;
+}
+
+/* css for mobile */
+
+.sidebarContainerMobile {
+  width: 100%;
+  height: fit-content;
+  font-family: cursive;
+}
+
+.CreateButtonMobile {
+  height: 41px;
+  width: inherit;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 97%;
+  letter-spacing: 0.54px;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-bottom: 20px;
+  font-family: cursive;
+}
+.headingMobile {
+  color: #000;
+  margin-left: 20px;
+  font-family: Roboto;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: 0.63px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #888;
+}

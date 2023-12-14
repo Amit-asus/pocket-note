@@ -1,0 +1,201 @@
+.notesHeader {
+  height: 58px;
+  background: #e8e8e8;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.notesGroup {
+  margin-left: 10px;
+  width: 68px;
+  height: 68px;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 24px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.groupName {
+  font-family: Roboto;
+  font-weight: bold;
+  letter-spacing: 0.48px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.NotesAndDate {
+  overflow-y: auto;
+  height: 60vh;
+  background-color: #f7ecdc;
+}
+
+.DateAndText {
+  display: flex;
+  margin-right: 1vw;
+}
+
+.Time {
+  margin-left: 80px;
+  margin-top: 20px;
+  margin-right: 100px;
+  margin-bottom: 0px;
+  color: #353535;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 97%;
+  letter-spacing: 0.373px;
+  width: 10vh;
+}
+.Date {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 80px;
+  color: #353535;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 97%;
+  letter-spacing: 0.373px;
+}
+
+.Text {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.Textarea {
+  margin: 10px;
+  margin-top: 15px;
+}
+
+.TextInput {
+  height: 18vh;
+  width: 52vw;
+  padding-left: 20px;
+  padding-top: 20px;
+  border-radius: 9px;
+  resize: none;
+  border: none;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.596px;
+}
+.TextInput::placeholder {
+  color: #9a9a9a;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.596px;
+}
+
+.SendImg {
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+  cursor: pointer;
+}
+.TimeMobile {
+  margin-left: 25px;
+  margin-top: 20px;
+  margin-right: 100px;
+  margin-bottom: 0px;
+  color: #353535;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 97%;
+  letter-spacing: 0.373px;
+  width: 10vh;
+}
+.DateMobile {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 25px;
+  color: #353535;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 97%;
+  letter-spacing: 0.373px;
+}
+.SendImgMobile {
+  position: absolute;
+  right: 5%;
+  bottom: 2%;
+  cursor: pointer;
+}
+
+.TextareaMobile {
+  margin: 10px;
+  margin-top: 15px;
+  background-color: #e8e8e8;
+}
+.TextInputMobile {
+  height: 18vh;
+  width: 96%;
+  padding-left: 20px;
+  padding-top: 20px;
+  border-radius: 9px;
+  resize: none;
+  border: none;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.596px;
+}
+.TextInputMobile::placeholder {
+  color: #9a9a9a;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.596px;
+}
+.NotesAndDateMobile {
+  overflow-x: auto;
+  width: 100vw;
+  height: 65vh;
+  background-color: #f7ecdc;
+  max-height: 400px; /* Set your desired maximum height */
+  overflow-y: auto; /* Add vertical scrollbar when content exceeds the height */
+}
+.TextMobile {
+ 
+  margin-left: 10vw;
+  margin-right: 20px;
+  
+}
+.DateAndTimeMobile
+{
+  width: 10vw;
+  height: 12vh;
+}
+
+.DateAndTime {
+  display: inline;
+  justify-content: flex-start;
+   margin-right: 2vw;
+   width: 10vw;
+}
+
+.TimeMobile,
+.DateMobile {
+  font-size: 8px; /* Decrease font size */
+  /* You can adjust the font size according to your layout */
+}
+
+
+
+.TextMobile {
+  word-wrap: break-word;
+  overflow-wrap: break-word; /* For wider browser support */
+  max-width: 100%; /* Ensure text doesn't exceed screen width */
+}
+
