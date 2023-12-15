@@ -68,7 +68,7 @@ export default function NotesArea(props) {
 
   return (
     <>
-     {screenSize.width < 989 ? (
+      {screenSize.width < 989 ? (
         <div className={styles.notesContainer}>
           <div className={styles.notesHeader}>
             <img
@@ -98,6 +98,7 @@ export default function NotesArea(props) {
               </div>
             ))}
           </div>
+
           <div className={styles.TextareaMobile}>
             <textarea
               className={styles.TextInputMobile}
@@ -115,8 +116,7 @@ export default function NotesArea(props) {
             />
           </div>
         </div>
-      ) 
-       : (
+      ) : (
         <div className={styles.notesContainer}>
           <div className={styles.notesHeader}>
             <div

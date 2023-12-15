@@ -73,7 +73,7 @@
 
 .TextInput {
   height: 18vh;
-  width: 52vw;
+  width: 72vw;
   padding-left: 20px;
   padding-top: 20px;
   border-radius: 9px;
@@ -99,6 +99,7 @@
   bottom: 30px;
   right: 40px;
   cursor: pointer;
+  margin-bottom: 5vh;
 }
 .TimeMobile {
   margin-left: 25px;
@@ -198,4 +199,6 @@
   overflow-wrap: break-word; /* For wider browser support */
   max-width: 100%; /* Ensure text doesn't exceed screen width */
 }
+
+/* new */
 

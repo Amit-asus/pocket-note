@@ -150,6 +150,7 @@
   margin-right: 1vw;
   margin-bottom: 20px;
   font-family: cursive;
+  margin-left: 10vw;
 }
 .headingMobile {
   color: #000;
@@ -172,4 +173,53 @@
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background: #888;
+}
+
+
+/* for the new button  */
+/* Your existing CSS */
+/* ... */
+
+/* Style for the sticky button container */
+.stickyButton {
+  position: fixed;
+  bottom: 10vh; /* Adjust as needed */
+  right: 75vw; /* Adjust as needed */
+  z-index: 999; /* Ensure it's above other content */
+}
+
+/* Style for the circular button */
+.circleBtn {
+  width: 5vw; /* Adjust size as needed */
+  height: 5vw; /* Adjust size as needed */
+  border-radius: 50%;
+  background-color: #3c17c4; /* Change color as desired */
+  color: #fff;
+  font-size: 44px;
+  border: none;
+  cursor: pointer;
+}
+
+.stickyButtonMobile {
+  position: fixed;
+  bottom: 10vh; /* Adjust as needed */
+  right: 10vw; /* Adjust as needed */
+  z-index: 999; /* Ensure it's above other content */
+}
+
+.circleBtnMobile {
+  width: 8vh; /* Adjust size as needed */
+  height: 8vh; /* Adjust size as needed */
+  border-radius: 50%;
+  background-color: #3c17c4; /* Change color as desired */
+  color: #fff;
+  font-size: 44px;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+}
+/* new */
+.HorizontalLine {
+  border: none;
+  height: 2px;
 }

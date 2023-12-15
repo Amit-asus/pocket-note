@@ -51,14 +51,20 @@ export default function SideBarAndMessageArea() {
             />
           ) : (
             <>
-              <h1 className={styles.headingMobile} >Pocket Notes</h1>
-              <button
-               className={styles.CreateButtonMobile}
+              <h1 className={styles.headingMobile}>Pocket Notes</h1>
+              {/* <button
+                className={styles.CreateButtonMobile}
                 onClick={() => setOpenModal(true)}
               >
                 + Create Notes group
-              </button>
-              <div className={styles.GroupList} >
+              </button> */}
+              <hr className={styles.HorizontalLine}/>
+              <div className={styles.stickyButtonMobile}>
+                <button className={styles.circleBtnMobile}
+                 onClick={() => setOpenModal(true)}
+                >+</button>
+              </div>
+              <div className={styles.GroupList}>
                 {groups.map((group) => (
                   <div
                     key={group.id}
@@ -73,7 +79,7 @@ export default function SideBarAndMessageArea() {
                     >
                       {group.groupName?.slice(0, 2)?.toUpperCase()}
                     </div>
-                    <h2 className={styles.groupName} >{group.groupName}</h2>
+                    <h2 className={styles.groupName}>{group.groupName}</h2>
                   </div>
                 ))}
               </div>
@@ -91,12 +97,17 @@ export default function SideBarAndMessageArea() {
         <>
           <div className={styles["sideBarContainer"]}>
             <h1 className={styles["heading"]}>Pocket Note</h1>
-            <button
+            {/* <button
               className={styles["createNoteButton"]}
               onClick={() => setOpenModal(true)}
             >
               Create Notes
-            </button>
+            </button> */}
+            <div className={styles.stickyButton}>
+                <button className={styles.circleBtn}
+                 onClick={() => setOpenModal(true)}
+                >+</button>
+              </div>
             <div className={styles["GroupList"]}>
               {groups.map((group) => (
                 <div
